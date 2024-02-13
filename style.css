@@ -20,7 +20,7 @@ section {
     padding: 20px;
     background-color: #00ced1;
     border-radius: 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 1, 0.1);
 }
 
 #infrastructure {
