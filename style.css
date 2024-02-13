@@ -15,6 +15,46 @@ main {
     padding: 20px;
 }
 
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#infrastructure {
+    background-color: #e7f3fe;
+}
+
+#machine-learning {
+    background-color: #fffde7;
+}
+
+#cortex {
+    background-color: #e8eaf6;
+}
+
+#data {
+    background-color: #e0f2f1;
+}
+
+#open-source {
+    background-color: #fbe9e7;
+}
+
+/* Add additional IDs for other sections if needed */
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
 footer {
     background-color: #f4f4f4;
     text-align: center;
@@ -22,4 +62,16 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    footer {
+        position: static; /* To prevent overlap on small screens */
+    }
 }
